@@ -1,6 +1,23 @@
 {
+    "type": "magento-module",
     "keywords": [
         "openmage-module"
     ],
-    "name": "openmage-module-fostering\/greyhound_connect"
+    "name": "openmage-module-fostering\/greyhound_connect",
+    "extra": {
+        "map": [
+            [
+                "app/code/community/Greyhound/Connect/",
+                "app/code/community/Greyhound/Connect/"
+            ],
+            [
+                "app/etc/modules/Greyhound_Connect.xml",
+                "app/etc/modules/Greyhound_Connect.xml"
+            ],
+            [
+                "app/locale/de_DE/Greyhound_Connect.csv",
+                "app/locale/de_DE/Greyhound_Connect.csv"
+            ]
+        ]
+    }
 }
